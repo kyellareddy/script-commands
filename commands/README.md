@@ -31,6 +31,7 @@ This repository contains sample commands and documentation to write your own one
   - [Baremetrics](#baremetrics)
   - [Bartender](#bartender)
   - [Bear](#bear)
+  - [BusyCal](#busycal)
   - [Chatgpt](#chatgpt)
   - [Cleanshot](#cleanshot)
   - [Craft](#craft)
@@ -72,6 +73,7 @@ This repository contains sample commands and documentation to write your own one
   - [Session](#session)
   - [SideNotes](#sidenotes)
   - [Sip](#sip)
+  - [Stickies](#stickies)
   - [Sublime](#sublime)
   - [Surfshark](#surfshark)
   - [Tailscale](#tailscale)
@@ -108,6 +110,7 @@ This repository contains sample commands and documentation to write your own one
   - [Firebase](#firebase)
   - [Mood Meter](#mood-meter)
   - [Open Weather](#open-weather)
+- [Dashboards](#dashboards)
 - [Developer Utils](#developer-utils)
   - [Aws](#aws)
   - [Brew](#brew)
@@ -132,6 +135,7 @@ This repository contains sample commands and documentation to write your own one
   - [Cmus](#cmus)
   - [Endel](#endel)
   - [Sonos](#sonos)
+  - [Speaker Setup](#speaker-setup)
   - [Spotify](#spotify)
   - [Tidal](#tidal)
   - [foobar2000](#foobar2000)
@@ -201,6 +205,12 @@ This repository contains sample commands and documentation to write your own one
   | <picture><source srcset="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/bear/images/bear-dark.png" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/bear/images/bear-light.png" width="20" height="20"></picture> | [Open Today](apps/bear/bear-today.sh) | Open the Today section in Bear. | [Tanay Nistala](https://github.com/tanaynistala) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <picture><source srcset="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/bear/images/bear-dark.png" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/bear/images/bear-light.png" width="20" height="20"></picture> | [Open Todos](apps/bear/bear-todo.sh) | Open the Todo section in Bear. | [Tanay Nistala](https://github.com/tanaynistala) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <picture><source srcset="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/bear/images/bear-dark.png" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/bear/images/bear-light.png" width="20" height="20"></picture> | [Search](apps/bear/bear-search.sh) | Search notes by keyword and/or tag in Bear. | [Tanay Nistala](https://github.com/tanaynistala) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+
+#### BusyCal
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| :--: | ----- | ----------- | :----: | :--: | :---: | :--: |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/busycal/images/busycal.png" width="20" height="20"> | [Create Event/Task](apps/busycal/new-busycal-event-or-task.applescript) | Creates new events or tasks in BusyCal. | [Annie Ma](www.anniema.co) | ✅ |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
 
 #### Chatgpt
 
@@ -399,6 +409,7 @@ This repository contains sample commands and documentation to write your own one
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
 | :--: | ----- | ----------- | :----: | :--: | :---: | :--: |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/mail/./images/mail.png" width="20" height="20"> | [CaptchaFromMail](apps/mail/copy-captcha-from-mail.py) | Copy the captcha from the emlx file. | [RealTong](https://raycast.com/RealTong) |  |  | <img src="images/icon-python.png" width="20" height="20" title="Python"> |
   | 📧 | [Copy Foreground Mail Deeplink](apps/mail/copy-foreground-mail-deeplink.applescript) | Copies the foreground Mail deeplink | [Jesse Claven](https://github.com/jesse-c) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
 
 #### Medo
@@ -573,6 +584,12 @@ This repository contains sample commands and documentation to write your own one
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/sip/./images/sip.png" width="20" height="20"> | [Check Contrast](apps/sip/sip-check-contrast-hex.sh) | Open Sip Contrast Checker. | [Sip](https://twitter.com/sip_app/) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/sip/./images/sip.png" width="20" height="20"> | [Open Contrast Checker](apps/sip/sip-open-check-contrast.sh) | Open Sip Contrast Checker. | [Sip](https://twitter.com/sip_app/) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/sip/./images/sip.png" width="20" height="20"> | [Show Color Picker](apps/sip/sip-show-picker.sh) | Pick a color value from your screen. | [Sip](https://twitter.com/sip_app/) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+
+#### Stickies
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| :--: | ----- | ----------- | :----: | :--: | :---: | :--: |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/stickies/images/stickies.png" width="20" height="20"> | [New Floating Sticky Note](apps/stickies/new-floating-sticky.applescript) | This script creates a new floating note in the Apple Stickies application | [Annie Ma](http://www.anniema.co/) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
 
 #### Sublime
 
@@ -789,6 +806,7 @@ This repository contains sample commands and documentation to write your own one
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/communication/slack/images/slack-logo.png" width="20" height="20"> | [Clear Slack DND](communication/slack/clear-slack-DND-status.sh) | Clear DND Status in Slack | [Sam Ching](https://github.com/samching) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🧼 | [Clear Status](communication/slack/clear-slack-status.template.sh) | Clear your status in Slack. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |  | ✅ | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/communication/slack/images/slack-logo.png" width="20" height="20"> | [Jump to...](communication/slack/slack-jump-to.applescript) | N/A | [Jakub Lanski](https://github.com/jaklan) | ✅ |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/communication/slack/images/slack-logo.png" width="20" height="20"> | [Launch Dev Mode](communication/slack/slack-dev-mode.sh) | Open Slack with the Developer Menu enabled. ⌘⌥I to access the Developer Menu. If you find it's not working, quit Slack and run this command again. | [Cody Carrell](https://raycast.com/sourcecody) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/communication/slack/images/slack-logo.png" width="20" height="20"> | [Open Workspace by Index](communication/slack/slack-open-workspace-by-index.applescript) | N/A | [Jakub Lanski](https://github.com/jaklan) | ✅ |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/communication/slack/images/slack-logo.png" width="20" height="20"> | [Open Workspace by Name](communication/slack/slack-open-workspace-by-name.applescript) | N/A | [Jakub Lanski](https://github.com/jaklan) | ✅ |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/communication/slack/images/slack-logo.png" width="20" height="20"> | [Send Message in Channel](communication/slack/slack-send-message.applescript) | This script posts a message text to a slack channel and sets active status (defaults to random good morning message in #general) | [Faris Aziz](https://github.com/farisaziz12) | ✅ |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
@@ -827,6 +845,7 @@ This repository contains sample commands and documentation to write your own one
   | 📝 | [Rich Text to Markdown](conversions/rich-text-clipboard-to-markdown.sh) | Convert rich text clipboard data to GitHub Flavored Markdown using Pandoc | [Adam Zethraeus](https://github.com/adam-zethraeus) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   |  | [Screenshot QR Code to Clipboard](conversions/qr-code-screenshot-to-text.sh) | Decode QR Code from screenshot to clipboard using https://qrserver.com/ | [Diego Lopes](https://github.com/Dihgg) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🔗 | [Simple Markdown Link Generator](conversions/inputs-to-markdown-link.sh) | Quickly and simply generate a markdown formatted link with your specified URL and title. | [atzzCokeK](https://github.com/atzzCokeK) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | 📝 | [Space Fixer](conversions/space-fixer.sh) | Add spaces between Chinese and English, number or symbols. | [RealTong](https://raycast.com/RealTong) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🔠 | [Strikethrough Text](conversions/strikethrough.sh) | Converts given text (or clipboard if no argument) to t̶e̶x̶t̶ | [Jakub Lanski](https://github.com/jaklan) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | ✂️ | [Trim Newlines and Tabs](conversions/trim-newlines-tabs.sh) | Trim newlines and tabs from clipboard content. | [Caleb Stauffer](https://github.com/crstauf) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🦸‍♀️ | [Unicode Superscript](conversions/unicode-superscript.sh) | Convert clipboards text to fake unicode superscript | [Adam Zethraeus](https://github.com/adam-zethraeus) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
@@ -905,6 +924,12 @@ This repository contains sample commands and documentation to write your own one
   | ⛅️ | [Current Weather](dashboard/open-weather/weather-current.template.sh) | Get current weather from OpenWeather | [Marek Mašek](https://github.com/marekmasek) |  | ✅ | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | ⛅️ | [Weather Forecast](dashboard/open-weather/weather-forecast.template.sh) | Get weather forecast from OpenWeather | [Marek Mašek](https://github.com/marekmasek) |  | ✅ | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
+## Dashboards
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| :--: | ----- | ----------- | :----: | :--: | :---: | :--: |
+  | 💾 | [Speed Test](dashboards/iperf-speed-test.template.sh) | Runs an iPerf Speed Test. | [Sam Wright](https://raycast.com/samywamy10) |  | ✅ | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+
 ## Developer Utils
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
@@ -926,6 +951,7 @@ This repository contains sample commands and documentation to write your own one
   | 💻 | [Decode Base64](developer-utils/decode-base64.sh) | Decodes clipboard content to Base64 and copies it again. | Raycast |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/images/jwt-logo.png" width="20" height="20"> | [Decode JWT](developer-utils/decode-jwt.sh) | Decodes JSON web token from the clipboard. | Raycast |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 💻 | [Decode URL](developer-utils/decode-url.sh) | Decodes clipboard content url and copies it again. | Raycast |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | ⌨️ | [Delete Current Line](developer-utils/delete-current-line.applescript) | This script deletes the line at cursor position. | [Annie Ma](http://www.anniema.co/) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | 🌍 | [Dig](developer-utils/dig.sh) | Perform a dig command with the specified options | Tommaso Panozzo | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 💻 | [Encode Base64](developer-utils/encode-base64.sh) | Encodes clipboard content to Base64 and copies it again. | Raycast |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 💻 | [Encode URL](developer-utils/encode-url.sh) | Encodes clipboard content url and copies it again. | Raycast |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
@@ -1200,6 +1226,12 @@ This repository contains sample commands and documentation to write your own one
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/sonos/images/sonos-logo.png" width="20" height="20"> | [Set Volume](media/sonos/sonos-volume-set.sh) | Sets volume of Sonos. | [David Blackman](https://github.com/whizziwig) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/sonos/images/sonos-logo.png" width="20" height="20"> | [Volume Down](media/sonos/sonos-volume-down.sh) | Raises volume of Sonos. | [David Blackman](https://github.com/whizziwig) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/sonos/images/sonos-logo.png" width="20" height="20"> | [Volume Up](media/sonos/sonos-volume-up.sh) | Raises volume of Sonos. | [David Blackman](https://github.com/whizziwig) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+
+#### Speaker Setup
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| :--: | ----- | ----------- | :----: | :--: | :---: | :--: |
+  | 🔊 | [Speaker Setup](media/speaker-setup/speaker-setup.sh) | N/A | [Kailash Yellareddy](https://github.com/kyellareddy) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 #### Spotify
 
@@ -1480,6 +1512,7 @@ This repository contains sample commands and documentation to write your own one
   | 🔋 | [Toggle Battery Charging](system/toggle-battery-charging.sh) | Toggle charging the battery when it is plugged in. When turned off, it will always use the charger instead of the battery; when turned on, it will go to automatic mode (decide based on your settings and daily charging routine). | [Amir Hossein SamadiPour](https://github.com/SamadiPour) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/system/images/bluetooth.png" width="20" height="20"> | [Toggle Bluetooth](system/bluetooth.template.applescript) | Toggle your Bluetooth connection. | [Vincent Dörig](https://github.com/vincentdoerig) |  | ✅ | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | 🖥 | [Toggle Desktop Icons](system/toggle-desktop-icons.applescript) | A script command to show and hide icons of Desktop folder | [Raycast](https://raycast.com) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+  | 🔄 | [Toggle Desktop Widgets](system/toggle-desktop-widget.sh) | N/A | [Federico Zivolo](https://github.com/FezVrasta) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 👓 | [Toggle Filename Extensions](system/toggle-filename-extensions.applescript) | Show or hide all filename extensions (like .txt, .png) | [Senthil Prabhu](https://github.com/senthilprabhut) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | 🖥 | [Toggle Flip Screen <display> to <degree>°](system/toggle-flip-screen.template.applescript) | Toggle flip (rotate) or revert the <display> to <degree>° | [Yohanes Bandung Bondowoso](https://github.com/ybbond) |  | ✅ | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | 👓 | [Toggle Hidden Files](system/toggle-hidden-files.applescript) | Show and hide hidden files/folders which starts with "." (dot), i.e: .bash_rc, .ssh | [Thiago Holanda](https://twitter.com/tholanda) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
@@ -1506,6 +1539,7 @@ This repository contains sample commands and documentation to write your own one
   | 🔊 | [Switch Audio to <Device Name>](system/audio/audio-output-switch.template.applescript) | Switch audio output to desired device. | [mmerle](https://github.com/mmerle) |  | ✅ | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/system/audio/images/airpod.png" width="20" height="20"> | [Toggle AirPods](system/audio/toggle-airpods.template.swift) | Toggle AirPods bluetooth device | [Nichlas W. Andersen](https://github.com/itsnwa) |  | ✅ | <img src="images/icon-swift.png" width="20" height="20" title="Swift"> |
   | 🎙 | [Toggle Microphone](system/audio/toggle-mic.applescript) | Toggles microphone. | [Matthew Morek](https://github.com/matthewmorek) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+  | 🔔 | [Toggle Mute Notifcation Sounds](system/audio/toggle-mute-notification-sounds.applescript) | Toggles notification sounds. | [Annie Ma](http://www.anniema.co/) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
 
 #### VPN
 

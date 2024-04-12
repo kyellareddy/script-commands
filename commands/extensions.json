@@ -252,6 +252,34 @@
         {
           "authors" : [
             {
+              "name" : "RealTong",
+              "url" : "https:\/\/raycast.com\/RealTong"
+            }
+          ],
+          "createdAt" : "2024-03-21T12:03:11+08:00",
+          "currentDirectoryPath" : null,
+          "description" : "Add spaces between Chinese and English, number or symbols.",
+          "filename" : "space-fixer.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "📝"
+          },
+          "identifier" : "01ce6b040aecd6bcd05519b1880154c6",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Conversions",
+          "path" : "conversions\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Space Fixer",
+          "updatedAt" : "2024-03-22T18:09:49+08:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Adam Zethraeus",
               "url" : "https:\/\/github.com\/adam-zethraeus"
             }
@@ -4259,7 +4287,7 @@
               "url" : "https:\/\/github.com\/designedbyclu"
             }
           ],
-          "createdAt" : "2021-05-10T13:42:50+08:00",
+          "createdAt" : "2021-02-04T00:45:59-08:00",
           "currentDirectoryPath" : null,
           "description" : "Checking DOGE coin price",
           "filename" : "doge.sh",
@@ -4268,7 +4296,7 @@
             "dark" : null,
             "light" : "images\/dogecoin-logo.png"
           },
-          "identifier" : "5ef2d6fa688d7beb5849da1bfcf41b17",
+          "identifier" : "ef5ccfacde23ff614355afb1f378cc1b",
           "isTemplate" : false,
           "language" : "bash",
           "mode" : "inline",
@@ -5341,7 +5369,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Default to Firefox",
-          "updatedAt" : "2023-08-31T18:05:16+09:00"
+          "updatedAt" : "2024-01-05T16:03:05-08:00"
         },
         {
           "authors" : [
@@ -5565,7 +5593,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Default to Arc",
-          "updatedAt" : "2023-02-22T16:16:58+11:00"
+          "updatedAt" : "2024-01-05T16:03:05-08:00"
         },
         {
           "authors" : [
@@ -5594,6 +5622,34 @@
           "schemaVersion" : 1,
           "title" : "Custom Window Size",
           "updatedAt" : "2021-11-17T17:41:07+01:00"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Federico Zivolo",
+              "url" : "https:\/\/github.com\/FezVrasta"
+            }
+          ],
+          "createdAt" : "2024-01-20T13:56:53+01:00",
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "toggle-desktop-widget.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🔄"
+          },
+          "identifier" : "79982c901bf4cd65eda80b5f7039d1d0",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Toggle Desktop Widget",
+          "path" : "system\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Toggle Desktop Widgets",
+          "updatedAt" : "2024-01-22T22:39:53+00:00"
         },
         {
           "authors" : [
@@ -5840,7 +5896,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Default to Safari",
-          "updatedAt" : "2023-02-22T16:16:58+11:00"
+          "updatedAt" : "2024-01-05T16:03:05-08:00"
         },
         {
           "authors" : [
@@ -7310,6 +7366,34 @@
             {
               "authors" : [
                 {
+                  "name" : "Annie Ma",
+                  "url" : "http:\/\/www.anniema.co\/"
+                }
+              ],
+              "createdAt" : "2024-01-26T14:05:08-08:00",
+              "currentDirectoryPath" : null,
+              "description" : "Toggles notification sounds.",
+              "filename" : "toggle-mute-notification-sounds.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "🔔"
+              },
+              "identifier" : "a3b32fd55c23706603f24da4c74fd8d0",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "System",
+              "path" : "system\/audio\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Toggle Mute Notifcation Sounds",
+              "updatedAt" : "2024-02-01T16:53:25+00:00"
+            },
+            {
+              "authors" : [
+                {
                   "name" : "Roland Leth",
                   "url" : "https:\/\/runtimesharks.com"
                 }
@@ -7420,6 +7504,40 @@
               "updatedAt" : "2021-04-16T19:18:39+03:00"
             }
           ]
+        }
+      ]
+    },
+    {
+      "name" : "Dashboards",
+      "path" : "dashboards",
+      "scriptCommands" : [
+        {
+          "authors" : [
+            {
+              "name" : "Sam Wright",
+              "url" : "https:\/\/raycast.com\/samywamy10"
+            }
+          ],
+          "createdAt" : "2024-04-11T17:21:31+10:00",
+          "currentDirectoryPath" : null,
+          "description" : "Runs an iPerf Speed Test.",
+          "filename" : "iperf-speed-test.template.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "💾"
+          },
+          "identifier" : "804d7f7d15474c0b6f5798afa59badee",
+          "isTemplate" : true,
+          "language" : "bash",
+          "mode" : "inline",
+          "needsConfirmation" : null,
+          "packageName" : "iPerf",
+          "path" : "dashboards\/",
+          "refreshTime" : "1h",
+          "schemaVersion" : 1,
+          "title" : "Speed Test",
+          "updatedAt" : "2024-04-11T07:23:05+00:00"
         }
       ]
     },
@@ -8351,7 +8469,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Create Image from Code",
-          "updatedAt" : "2021-12-07T11:53:06+07:00"
+          "updatedAt" : "2024-03-12T21:01:55+07:00"
         },
         {
           "authors" : [
@@ -8571,6 +8689,34 @@
           "schemaVersion" : 1,
           "title" : "Base64 Encode",
           "updatedAt" : "2021-03-26T10:57:36+01:00"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Annie Ma",
+              "url" : "http:\/\/www.anniema.co\/"
+            }
+          ],
+          "createdAt" : "2024-01-26T02:19:25-07:00",
+          "currentDirectoryPath" : null,
+          "description" : "This script deletes the line at cursor position.",
+          "filename" : "delete-current-line.applescript",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "⌨️"
+          },
+          "identifier" : "155fc5e8e485cc9d9f7a08797ea68597",
+          "isTemplate" : false,
+          "language" : "applescript",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Developer Utilities",
+          "path" : "developer-utils\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Delete Current Line",
+          "updatedAt" : "2024-01-26T09:21:48+00:00"
         },
         {
           "authors" : [
@@ -11587,6 +11733,34 @@
               "schemaVersion" : 1,
               "title" : "Set DND Status",
               "updatedAt" : "2021-03-04T08:32:41+01:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Cody Carrell",
+                  "url" : "https:\/\/raycast.com\/sourcecody"
+                }
+              ],
+              "createdAt" : "2024-03-10T17:10:31-04:00",
+              "currentDirectoryPath" : null,
+              "description" : "Open Slack with the Developer Menu enabled. ⌘⌥I to access the Developer Menu. If you find it's not working, quit Slack and run this command again.",
+              "filename" : "slack-dev-mode.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/slack-logo.png"
+              },
+              "identifier" : "7c43ddc9b86f860583abf7ea64a4d324",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Slack",
+              "path" : "communication\/slack\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Launch Dev Mode",
+              "updatedAt" : "2024-03-10T21:12:02+00:00"
             }
           ]
         },
@@ -13349,7 +13523,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Search Script Command",
-          "updatedAt" : "2021-07-13T21:10:54-07:00"
+          "updatedAt" : "2024-02-19T19:37:34-08:00"
         },
         {
           "authors" : [
@@ -14705,6 +14879,74 @@
           ]
         },
         {
+          "name" : "BusyCal",
+          "path" : "busycal",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Annie Ma",
+                  "url" : "www.anniema.co"
+                }
+              ],
+              "createdAt" : "2024-02-06T01:35:01-07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Creates new events or tasks in BusyCal.",
+              "filename" : "new-busycal-event-or-task.applescript",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/busycal.png"
+              },
+              "identifier" : "e4f836d21d4fcb8bcf522b1393aad74a",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "BusyCal",
+              "path" : "apps\/busycal\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Create Event\/Task",
+              "updatedAt" : "2024-02-06T08:36:45+00:00"
+            }
+          ]
+        },
+        {
+          "name" : "Stickies",
+          "path" : "stickies",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Annie Ma",
+                  "url" : "http:\/\/www.anniema.co\/"
+                }
+              ],
+              "createdAt" : "2024-01-26T02:19:25-07:00",
+              "currentDirectoryPath" : null,
+              "description" : "This script creates a new floating note in the Apple Stickies application",
+              "filename" : "new-floating-sticky.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/stickies.png"
+              },
+              "identifier" : "dae7953c0397480c8d99a3b0f56176b7",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Stickies",
+              "path" : "apps\/stickies\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "New Floating Sticky Note",
+              "updatedAt" : "2024-01-26T09:21:48+00:00"
+            }
+          ]
+        },
+        {
           "name" : "Bartender",
           "path" : "bartender",
           "scriptCommands" : [
@@ -15284,6 +15526,34 @@
               "schemaVersion" : 1,
               "title" : "Copy Foreground Mail Deeplink",
               "updatedAt" : "2021-05-22T16:27:53+01:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "RealTong",
+                  "url" : "https:\/\/raycast.com\/RealTong"
+                }
+              ],
+              "createdAt" : "2024-03-02T12:46:14+08:00",
+              "currentDirectoryPath" : null,
+              "description" : "Copy the captcha from the emlx file.",
+              "filename" : "copy-captcha-from-mail.py",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/mail.png"
+              },
+              "identifier" : "eb5104b3db21de0c7ea654c49319716a",
+              "isTemplate" : false,
+              "language" : "python",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Mail",
+              "path" : "apps\/mail\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "CaptchaFromMail",
+              "updatedAt" : "2024-03-02T12:46:14+08:00"
             }
           ]
         },
@@ -16955,7 +17225,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Create Note From Clipboard",
-              "updatedAt" : "2021-08-18T17:31:58+01:00"
+              "updatedAt" : "2024-03-01T12:51:47+01:00"
             },
             {
               "authors" : [
@@ -21289,6 +21559,40 @@
       ],
       "subGroups" : [
         {
+          "name" : "Speaker Setup",
+          "path" : "speaker-setup",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Kailash Yellareddy",
+                  "url" : "https:\/\/github.com\/kyellareddy"
+                }
+              ],
+              "createdAt" : "2024-01-09T01:17:34-08:00",
+              "currentDirectoryPath" : null,
+              "description" : null,
+              "filename" : "speaker-setup.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "🔊"
+              },
+              "identifier" : "7920ccb4e58a80afd149f6ce81e8f185",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "Speaker Setup",
+              "path" : "media\/speaker-setup\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Speaker Setup",
+              "updatedAt" : "2024-04-07T23:23:52+04:00"
+            }
+          ]
+        },
+        {
           "name" : "Apple Music",
           "path" : "apple-music",
           "scriptCommands" : [
@@ -21710,7 +22014,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Love Current Track",
-              "updatedAt" : "2021-09-24T08:42:54-04:00"
+              "updatedAt" : "2024-02-27T09:52:24-05:00"
             }
           ]
         },
@@ -23165,6 +23469,11 @@
   ],
   "languages" : [
     {
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
+    },
+    {
       "displayName" : "Python",
       "icon" : "icon-python.png",
       "name" : "python"
@@ -23175,29 +23484,24 @@
       "name" : "node"
     },
     {
-      "displayName" : "Ruby",
-      "icon" : "icon-ruby.png",
-      "name" : "ruby"
-    },
-    {
       "displayName" : "AppleScript",
       "icon" : "icon-applescript.png",
       "name" : "applescript"
     },
     {
-      "displayName" : "Swift",
-      "icon" : "icon-swift.png",
-      "name" : "swift"
-    },
-    {
       "displayName" : "Bash",
       "icon" : "icon-bash.png",
       "name" : "bash"
+    },
+    {
+      "displayName" : "Swift",
+      "icon" : "icon-swift.png",
+      "name" : "swift"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 806,
-  "updatedAt" : "2023-12-22T14:21:54Z"
+  "totalScriptCommands" : 816,
+  "updatedAt" : "2024-04-11T07:23:05Z"
 }
