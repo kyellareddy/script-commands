@@ -5,7 +5,7 @@
     <a href="https://github.com/raycast/script-commands/tree/master/commands">
         <img alt="GitHub contributors" src="https://img.shields.io/badge/dynamic/json?style=flat&color=FF6363&label=Script%20Commands&query=$.totalScriptCommands&url=https:%2F%2Fraw.githubusercontent.com%2Fraycast%2Fscript-commands%2Fmaster%2Fcommands%2Fextensions.json&logo=raycast&labelColor=202123" />
     </a>
-    <a href="https://twitter.com/raycastapp">
+    <a href="https://twitter.com/raycast">
       <img alt="Twitter Follow" src="https://img.shields.io/badge/follow-@raycastapp-blue?labelColor=202123&logo=x&color=eee" />
     </a>
   </div>
